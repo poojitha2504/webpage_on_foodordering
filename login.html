@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include necessary CSS and scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('login.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white; 
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.5); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form-group label {
+            color: white; 
+        }
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.1); 
+            border-bottom: 1px solid white;
+            color: white; 
+        }
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.5); 
+        }
+        .btn-primary {
+            background-color: white; 
+            color: #007bff; 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Include your navigation bar, if needed -->
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">Login</h2>
+                <form action="order.html">
+                    <div class="form-group">
+                        <label for="poojitha@gmail.com">Email address</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="poojimeinfinfity">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <p class="mt-3">Don't have an account? <a href="signup.html">Sign up here</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include your footer, if needed -->
+
+    <!-- Include necessary scripts -->
+    <!-- Other scripts -->
+</body>
+</html>
